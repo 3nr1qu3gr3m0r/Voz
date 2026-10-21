@@ -1,1 +1,18 @@
 Practica2_1/Reconocimiento_Locutor
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Archivos de datos pesados (opcional pero recomendado)
+*.csv
+*.flac
+*.tar.gz
