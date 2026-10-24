@@ -1,0 +1,48 @@
+{
+    "semilla_gmm": 7,
+    "frecuencia_muestreo": 16000,
+    "longitud_ventana": 400,
+    "salto_ventana": 160,
+    "numero_fft": 512,
+    "numero_mfcc": 20,
+    "numero_filtros_mel": 40,
+    "frecuencia_minima": 20.0,
+    "frecuencia_maxima": 8000.0,
+    "ventana": "hann",
+    "center": false,
+    "power": 2.0,
+    "mel_htk": false,
+    "mel_norm": "slaney",
+    "db_ref": 1.0,
+    "db_amin": 1e-10,
+    "db_top_db": null,
+    "dct_type": 2,
+    "dct_norm": "ortho",
+    "lifter": 0,
+    "resumen_knn": "media y desviación estándar, ddof=0",
+    "parametros_knn": {
+        "n_neighbors": 3,
+        "weights": "distance",
+        "p": 2
+    },
+    "componentes_gmm": 16,
+    "parametros_base_gmm": {
+        "covariance_type": "diag",
+        "tol": 0.002,
+        "reg_covar": 1e-06,
+        "max_iter": 200,
+        "n_init": 2,
+        "init_params": "kmeans",
+        "random_state": 7
+    },
+    "particion": "por grabación; aproximadamente 60/20/20",
+    "capitulos_compartidos": true,
+    "versiones": {
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "librosa": "1.0.0",
+        "scikit_learn": "1.9.1",
+        "soundfile": "0.14.0",
+        "joblib": "1.6.0"
+    }
+}
